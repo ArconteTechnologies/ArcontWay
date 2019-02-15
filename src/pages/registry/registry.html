@@ -1,0 +1,133 @@
+
+<!-- -->
+<ion-content class="register">
+  <div class="login-content">
+
+    <!-- Logo -->
+    <div padding text-center>
+      <div class="logo"></div>
+      <h2 ion-text class="text-primary">
+        <strong>Registrar nuevo usuario</strong>
+      </h2>
+    </div>
+
+    <!-- Login form -->
+    <form class="list-form"  [formGroup]="registryForm" (ngSubmit)="sendRegister(traveler)" novalidate>
+       
+
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="person" item-start class="text-primary"></ion-icon>
+          Nombre
+        </ion-label>
+        <ion-input type="text" formControlName="name" [(ngModel)]="traveler.name"  ></ion-input>
+      </ion-item>
+      <ion-item *ngIf="registryForm.get('name').errors && registryForm.get('name').dirty">
+        <p *ngIf="registryForm.get('name').hasError('required')" class="error">
+          El nombre es requerido.
+        </p>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="person" item-start class="text-primary"></ion-icon>
+          Apellido
+        </ion-label>
+        <ion-input type="text" formControlName="lastname" [(ngModel)]="traveler.lastname"></ion-input>
+      </ion-item>
+      <ion-item *ngIf="registryForm.get('lastname').errors && registryForm.get('lastname').dirty">
+        <p *ngIf="registryForm.get('lastname').hasError('required')" class="error">
+          El apellido es requerido.
+        </p>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="mail" item-start class="text-primary"></ion-icon>
+          Correo
+        </ion-label>
+        <ion-input type="email" formControlName="email" [(ngModel)]="traveler.email" ></ion-input>
+      </ion-item>
+      <ion-item *ngIf="registryForm.get('email').errors && registryForm.get('email').dirty">
+        <p *ngIf="registryForm.get('email').hasError('required')" class="error">
+          El correo es requerido.
+        </p>
+        <p *ngIf="registryForm.get('email').hasError('email')" class="error">
+          El correo electronico indicado no es valido.
+        </p>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="lock" item-start class="text-primary"></ion-icon>
+          Contraseña
+        </ion-label>
+        <ion-input type="password" formControlName="password" [(ngModel)]="traveler.password" ></ion-input>
+      </ion-item>
+      <ion-item *ngIf="registryForm.get('password').errors && registryForm.get('password').dirty">
+        <p *ngIf="registryForm.get('password').hasError('required')" class="error">
+          El password es requerido.
+        </p>
+        <p *ngIf="!registryForm.get('password').hasError('minLength')" class="error">
+          El password debe contener minimo 8 caracteres.
+        </p>
+      </ion-item>
+
+      <ion-list >
+        <ion-item>
+          <ion-label>
+            <ion-icon name="ios-call" item-start class="text-primary"></ion-icon>
+            Pais
+          </ion-label>
+          <ion-select formControlName="lada" [(ngModel)]="traveler.lada">
+            <ion-option value="+52">México</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item *ngIf="registryForm.get('lada').errors && registryForm.get('lada').dirty">
+          <p *ngIf="registryForm.get('lada').hasError('required')" class="error">
+            La Lada es requerido.
+          </p>
+        </ion-item>
+      </ion-list>
+
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="ios-call" item-start class="text-primary"></ion-icon>
+          Teléfono
+        </ion-label>
+        <ion-input type="number" formControlName="number_phone" [(ngModel)]="traveler.number_phone"></ion-input>
+      </ion-item>
+      <ion-item *ngIf="registryForm.get('number_phone').errors && registryForm.get('number_phone').dirty">
+        <p *ngIf="registryForm.get('number_phone').hasError('required')" class="error">
+          El celular es requerido.
+        </p>
+        <p *ngIf="!registryForm.get('number_phone').hasError('maxLength')" class="error">
+          El celular debe contener 10 digitos numericos.
+        </p>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="ios-card" item-start class="text-primary"></ion-icon>
+          Tarjeta (opcional)
+        </ion-label>
+        <ion-input type="card" [(ngModel)]="traveler.card"  [ngModelOptions]="{standalone: true}"></ion-input>
+      </ion-item>
+      <div margin-top>
+      
+      
+      <button ion-button block  type="submit" [disabled]="!registryForm.valid" color="primary" tappable>
+        REGISTRAR
+      </button>
+    </div>
+    </form>
+    
+      
+
+    <!-- Other links -->
+    <div text-center margin-top>
+      <span ion-text class="text-primary" tappable (click)="launchHomePage()">Ya tengo una cuenta</span>
+    </div>
+
+  </div>
+</ion-content>

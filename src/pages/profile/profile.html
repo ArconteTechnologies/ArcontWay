@@ -1,0 +1,57 @@
+<!-- -->
+<ion-header >
+    <ion-navbar color="primary">
+      <ion-buttons start>
+        <button ion-button icon-only menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+      </ion-buttons>
+      <ion-title>
+        <strong>Editar Cuenta</strong>
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  
+  <ion-content padding>
+    <ion-card>
+
+      <ion-item>
+        <div class="user-avatar">
+          <img src="../assets/imgs/img.jpg">
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <h2 ion-text class="text-primary"><strong>Cuenta</strong></h2>
+      </ion-item>
+
+      <button ion-item (click)='editName()'>
+        <ion-icon name="person" item-start ></ion-icon>
+        <ion-input type="text" name="name" value="Eduardo Paredes" disabled></ion-input>
+      </button>
+      
+      <button ion-item (click)='editMail()'>
+        <ion-icon name="mail" item-start ></ion-icon>
+        <ion-input type="text" name="mail" value="eduardo@gmail.com" disabled></ion-input>
+      </button>
+
+      <button ion-item (click)='editPhone()'>
+        <ion-icon name="ios-call" item-start ></ion-icon>
+        <ion-input type="text" name="phone" value="+52 44023157" disabled></ion-input>
+      </button>
+
+      <button ion-item (click)='editPassword()'>
+        <ion-icon name="lock" item-start ></ion-icon>
+        <ion-input type="password" name="password" value="123456" disabled></ion-input>
+      </button>
+
+      <div text-center margin-top>
+        <button ion-button  color="light" round (click)="launchHomePage()">
+          Cerrar Sesión
+        </button>
+      </div>
+  
+    </ion-card>
+  </ion-content>
+  

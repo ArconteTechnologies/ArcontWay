@@ -1,0 +1,59 @@
+<!--
+  Generated template for the LogindefaultuserPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>logindefaultuser</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="login-content">
+          <!-- Logo -->
+    <div padding-horizontal text-center class="animated fadeInDown">
+      <div class="logo"></div>
+        <h2 ion-text class="text-primary">
+          <strong>ArcontWay</strong>
+        </h2>
+        <h3 ion-text class="text-primary">Confia en nosotros!</h3>
+      </div>
+    </div>
+  
+
+   <!-- Login form -->
+    <form class="list-form">
+        <ion-item>
+          <ion-label floating>
+            <ion-icon name="mail" item-start class="text-primary"></ion-icon>
+            Correo
+          </ion-label>
+          <ion-input type="email" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label floating>
+            <ion-icon name="lock" item-start class="text-primary"></ion-icon>
+            Contraseña
+          </ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+    </form>
+
+      <p text-right ion-text class="text-primary" tappable (click)="forgotPass()"><strong>¿Olvidaste la Contraseña?</strong></p>
+
+      <div>
+        <button ion-button icon-start block color="default" tappable (click)="launchPrincipalPage()">
+          <ion-icon name="log-in"></ion-icon>
+          Iniciar Sesión
+        </button>
+      </div>
+
+
+      <!-- Other links -->
+      <div text-center margin-top>
+        <button ion-button (click)="launchRegistryPage()" color="default" >Registrarme</button>
+      </div>
+</ion-content>

@@ -1,14 +1,96 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+  <ion-navbar >
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <div text-center>
+          <ion-title>Busca tu viaje</ion-title>
+      </div>
+
+    </ion-navbar>
+
+      <ion-card no-margin margin-bottom class="full-width" style="margin-bottom: 0px;" ion-affix>
+          <ion-item tappable  class="border-bottom">
+              <ion-icon name="search" color="primary" item-left></ion-icon>
+              <ion-input type="text" placeholder="Ingrese su origen" ></ion-input>
+            </ion-item>
+
+          <ion-item tappable  class="border-bottom">
+            <ion-icon name="search" color="primary" item-left></ion-icon>
+            <ion-input type="text" placeholder="Ingrese su destino" ></ion-input>
+          </ion-item>
+          <ion-item (click)="advancedSearch();">
+              Realiza busquedas personalizadas. Info.
+          <ion-icon tappable name="arrow-forward" color="primary" item-right></ion-icon>
+          </ion-item>
+        </ion-card>
+
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding class="animated fadeIn common-bg">
+
+
+
+<ion-list *ngFor="let date of dateFilter">
+ <ion-label>Fecha: {{date}}</ion-label>
+<div *ngFor="let trip of trips">
+  <ion-card *ngIf="date == trip.date">
+    <ion-item>
+      <div text-center>
+        <h2>Viaje de Qro. a Landa de Matamoros</h2>
+        <p>Nombre de la empresa</p>
+      </div>
+    </ion-item>
+    <img src="assets/imgs/mapa.jpg">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+            
+            <ion-icon name="logo-usd" item-start></ion-icon>
+            <h3>Costo</h3>
+            <p>$123</p>
+        </ion-col>
+        <ion-col>
+            <ion-icon name="alarm" item-start></ion-icon>
+            <h3>Horario</h3>
+            <p>14:00 hrs.</p>
+        </ion-col>
+        <ion-col>
+            <ion-icon name="contacts" item-start></ion-icon>
+            <h3>Personas</h3>
+            <p>3</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+    <ion-grid>
+      <ion-row>
+        <ion-item>
+          <ion-avatar item-start>
+            <img src="assets/imgs/img.jpg">
+          </ion-avatar>
+          <h3>Eduardo</h3>
+          <form align="left">
+            <p class="clasificacion">
+
+              <label >★</label>
+              <label >★</label>
+              <label style="color:aqua">★</label>
+              <label style="color:aqua">★</label>
+              <label style="color:aqua">★</label>
+
+            </p>
+          </form>
+          <button ion-button icon-only small item-right (click)="launchTripdescPage()">
+            <ion-icon name="arrow-forward"></ion-icon>
+          </button>
+        </ion-item>
+      </ion-row>
+    </ion-grid>
+
+  </ion-card>
+</div>
+</ion-list>
+
 </ion-content>

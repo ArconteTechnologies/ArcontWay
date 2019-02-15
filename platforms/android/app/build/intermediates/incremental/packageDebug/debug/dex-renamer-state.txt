@@ -1,0 +1,4 @@
+#Fri Feb 15 16:29:37 CST 2019
+base.0=/home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

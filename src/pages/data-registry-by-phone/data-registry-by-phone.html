@@ -1,0 +1,54 @@
+<!--
+  Generated template for the DataRegistryByPhonePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>dataRegistryByPhone</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <form class="list-form"  [formGroup]="registryForm" (ngSubmit)="sendRegister(user)" novalidate>
+       
+
+        <ion-item>
+          <ion-label floating>
+            <ion-icon name="person" item-start class="text-primary"></ion-icon>
+            Nombre
+          </ion-label>
+          <ion-input type="text" formControlName="name" [(ngModel)]="user.name"  ></ion-input>
+        </ion-item>
+        <ion-item *ngIf="registryForm.get('name').errors && registryForm.get('name').dirty">
+          <p *ngIf="registryForm.get('name').hasError('required')" class="error">
+            El nombre es requerido.
+          </p>
+        </ion-item>
+  
+        <ion-item>
+          <ion-label floating>
+            <ion-icon name="person" item-start class="text-primary"></ion-icon>
+            Apellido
+          </ion-label>
+          <ion-input type="text" formControlName="lastname" [(ngModel)]="user.lastname"></ion-input>
+        </ion-item>
+        <ion-item *ngIf="registryForm.get('lastname').errors && registryForm.get('lastname').dirty">
+          <p *ngIf="registryForm.get('lastname').hasError('required')" class="error">
+            El apellido es requerido.
+          </p>
+        </ion-item>
+  
+        <p>El metodo por defecto de pago sera en efectivo, si desea agregar un nuevo
+          metodo de pago por favor dirigace a: ...................... 
+        </p>
+        <div margin-top>
+        
+        
+        <button ion-button block  type="submit" [disabled]="!registryForm.valid" color="primary" tappable>
+          REGISTRAR
+        </button>
+      </div>
+      </form>
+</ion-content>

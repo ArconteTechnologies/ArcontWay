@@ -1,0 +1,128 @@
+<!--
+  Generated template for the MytripsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Mis Viajes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <div>
+    <ion-segment [(ngModel)]="trips">
+      <ion-segment-button value="concluidos">
+        Concluidos
+      </ion-segment-button>
+      <ion-segment-button value="reservados">
+        Reservados
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+  
+  <div [ngSwitch]="trips">
+    <ion-list *ngSwitchCase="'concluidos'">
+      <ion-card>
+        <ion-item>
+          <ion-fab right top>
+            <button ion-fab>
+              <ion-icon name="car"></ion-icon>
+            </button>
+          </ion-fab>
+          <ion-avatar item-start>
+            <img src="assets/imgs/img.jpg">
+          </ion-avatar>
+          <h2>Conductor</h2>
+          <p>Jonny Loredo</p>
+        </ion-item>
+    
+        <img src="assets/imgs/mapa.jpg">
+        
+        <ion-item>
+          <ion-icon name="logo-usd" item-start large ></ion-icon>
+          <h1>250.00 MXN</h1>
+        </ion-item> 
+        
+        <button ion-item (click) = "tripCon()">
+          <ion-icon name="arrow-forward" item-end></ion-icon>
+          Más Acerca del Viaje
+        </button>
+      </ion-card>
+    
+      <ion-card>
+        <ion-item>
+          <ion-fab right top>
+            <button ion-fab>
+              <ion-icon name="car"></ion-icon>
+            </button>
+          </ion-fab>
+          <ion-avatar item-start>
+            <img src="assets/imgs/img.jpg">
+          </ion-avatar>
+          <h2>Conductor</h2>
+          <p>Esteban Mendiola</p>
+        </ion-item>
+    
+        <img src="assets/imgs/mapa.jpg">
+        
+        <ion-item>
+          <ion-icon name="logo-usd" item-start large ></ion-icon>
+          <h1>200.00 MXN</h1>
+        </ion-item> 
+        
+        <button ion-item (click) = "tripCon()">
+          <ion-icon name="arrow-forward" item-end></ion-icon>
+          Más Acerca del Viaje
+        </button>
+      </ion-card>
+    </ion-list>
+  
+    <ion-list *ngSwitchCase="'reservados'">
+      <ion-card>
+        <ion-item>
+          <ion-fab right top>
+            <button ion-fab>
+              <ion-icon name="time"></ion-icon>
+            </button>
+          </ion-fab>
+          <ion-avatar item-start>
+            <img src="assets/imgs/img.jpg">
+          </ion-avatar>
+          <h2>Conductor</h2>
+          <p>Jonny Loredo</p>
+        </ion-item>
+    
+        <img src="assets/imgs/mapa.jpg">
+        
+        <ion-item>
+          <ion-icon name="pin" item-start large></ion-icon>
+          <h3>Origen</h3>
+          <p>Landa de Matamóros, Qro.</p>
+          <h3>Destino</h3>
+          <p>Santiago de Querétaro, Qro.</p>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="time" item-start large></ion-icon>
+          <h2>Salida</h2>
+          <p>5:00 a.m. Jardin Principal</p>
+        </ion-item>  
+        
+        <button ion-item (click) = "resTrip()">
+          <ion-icon name="arrow-forward" item-end></ion-icon>
+          Más Acerca del Viaje
+        </button>
+      </ion-card>
+    </ion-list>
+  </div>
+
+</ion-content>

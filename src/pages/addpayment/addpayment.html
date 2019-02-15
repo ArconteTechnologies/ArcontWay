@@ -1,0 +1,69 @@
+<!--
+  Generated template for the AddpaymentPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Agregar Método de Pago</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label floating>Número de Tarjeta</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6>
+        <ion-item>
+          <ion-label floating>MM/AA</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col col-6>
+        <ion-item>
+          <ion-label floating>CCV</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label>País</ion-label>
+          <ion-select [(ngModel)]="gaming">
+            <ion-option value="mexico">México</ion-option>
+            <ion-option value="canada">Canada</ion-option>
+            <ion-option value="eeuu">EEUU</ion-option>
+            <ion-option value="uk">UK</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-12>
+        <ion-item>
+          <ion-label floating>Código Postal</ion-label>
+          <ion-input type="number"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-12>
+        <button ion-button block outline icon-start>
+          <ion-icon name="checkmark-circle-outline"></ion-icon>
+          Agregar Método
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

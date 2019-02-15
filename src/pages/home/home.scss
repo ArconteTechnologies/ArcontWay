@@ -1,3 +1,67 @@
-page-home {
+page-home,
+.home {
+  background: url("../assets/imgs/fondo5.jpg");
+  ion-list {
+    border-radius: 1rem;
+    overflow: hidden;
 
+    ion-item,
+    .item:first-child,
+    .item:last-child {
+      border: none;
+    }
+
+    ion-datetime {
+      padding-left: 0;
+    }
+  }
+}
+.auth-page {
+  background-color: #fff;
+  &::before {
+    content: "";
+    background: url("../assets/imgs/fondo5.jpg");
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+  }
+}
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
 }
