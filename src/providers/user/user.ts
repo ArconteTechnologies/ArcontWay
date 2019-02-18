@@ -6,19 +6,20 @@ import { Injectable } from '@angular/core';
 */
 @Injectable()
 export class UserProvider {
-  private url: string = 'http://192.168.3.71:3000/';
+  //private url: string = 'http://192.168.3.71:3000/';
   //private url: string = 'http://localhost:3000/';
+  private url: string ='http://192.168.100.228:3000/';
 
   constructor(public http: HttpClient) {}
 
-  sendRegiste(user, token){
+  verifyTraveler(token){
     const httpOptions = {
       headers : new HttpHeaders({
         'Authorization': 'Bearer ' + token,
         'Content-Type':  'application/json'
       })
     };
-    return this.http.post(this.url + 'users',JSON.stringify(user), httpOptions);
+    return this.http.get(this.url + 'users/traveler', httpOptions);
   }
 
 }

@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw321dp-v13/values-sw321dp-v13.xml",
+            "outputFile": "C:\\Users\\Faby Martiez\\Documents\\ArcontWay\\App\\ArcontWay\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw321dp-v13\\values-sw321dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/res/values-sw321dp-v13/values-sw321dp-v13.xml",
+                    "source": "C:\\Users\\Faby Martiez\\.gradle\\caches\\transforms-1\\files-1.1\\account-kit-sdk-4.39.0.aar\\e92545b743083933f9f931ee9609e405\\res\\values-sw321dp-v13\\values-sw321dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,118",
+                        "endColumns": "62,74",
+                        "endOffsets": "113,188"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\home\\estebanmendiola\\Documents\\Personal\\ArcontWay\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw321dp-v13\\values-sw321dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\home\\estebanmendiola\\.gradle\\caches\\transforms-1\\files-1.1\\account-kit-sdk-4.39.0.aar\\b49189204089d0d0b841541344cfb5a3\\res\\values-sw321dp-v13\\values-sw321dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

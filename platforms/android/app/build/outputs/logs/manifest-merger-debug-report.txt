@@ -1,340 +1,340 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:1-26:12
-MERGED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:21:1-55:12
-MERGED from [com.android.support:design:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/7d7b2066f22eb2b21d7425ebbbd8f1fc/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f2a175a92021bab1f5c25b46519d824c/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/73323ae951b23625d5b253a763b54b74/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a20d5b89356ffdb0e5ad633520c96ca3/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/cef607ae02dbe57cf2261d03549da109/AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:transition:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/e609ac1b6369639e930149e9ed64720e/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:17:1-39:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/675f42b1d9e94698d64c4065ac03d003/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/1eb093f1bff14f287d8cec4e4cc43de0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/060dc00fb6f5ec9fc6133977833ea520/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/c05023bc08f607013cc15debe284b8e5/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d76c6bbf8e700863820693a2dab2d4a5/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/32abb36ff96de51738c1b3f5f237510a/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d5fca15301f8d8a97192011da3b92b9a/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/e5999793fb198314a8a6a6d2c04cdbfa/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c9136c433fa32ba9cbf90ceb7a9fdee5/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8db46da7915e44d6be3af3e2eba3bf5d/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/26f8c2a4a08cb07baed83583e1a41464/AndroidManifest.xml:17:1-31:12
-MERGED from [:CordovaLib] /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/c4c4e6f07a2cc2449bbccfc843367ad4/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/3150fb53c92af6d44df957462029b7e3/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/9c7cfe45ac9266a5b483b1dcaa38fd6a/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/bffb3ac925dedffaf5a5d3cdaebb26a0/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/6f8655f3458a4abaacef1b18963c42ee/AndroidManifest.xml:2:1-6:12
-INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:21:1-55:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ca68fce7d07c4c3e29bfcb0fc06007e3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\02fdccaac31372013c950764b024bd51\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\c07b6e3f9e4f327c213fdf21685f60e0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9fd3b6fe6fe80f4ddaf53b6a28c7cf29\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\194f677af1ae65ab6103c50e7544d463\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d9ee4f3d5b79340c050fbefcf7daad11\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\c30249a61697aecde1622bfa785ca20b\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\83309246d4a970400b46e7293fefc586\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\b0b81ff9777ed7c0e21417463660327e\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\b82914c4303996eb61f2b87ce84f3faa\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8d2fc07c44fc5ca5f58598fa245600a2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d63972daea92b1460224d3e810cd2121\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\1e34881791869714dc9aaf506cb3646a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6368564940c6875cd9dbafd5dc9b21ff\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5577a2276ab45a37768f2f1c9c1b0a84\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b0b61afa2e29295ec2bdf7e2b995c8ad\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0e610ad94c4ea9e872a1e59f90b0d92e\AndroidManifest.xml:17:1-31:12
+MERGED from [:CordovaLib] C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\bcfd72986909b0d9d80ac2c25592c050\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\fb526e9ec7d9f44a236c45e4e2374c4d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\bd2ea3a1e9a2d1bccb818e7d8d9acc20\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\1bf4023d981eeb5148232b1cad5f9a21\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\5b385bc9886e7735305e7fed7cc5042c\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:98-124
-		INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:98-124
+		INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:70-97
-		INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:70-97
+		INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml
 	android:hardwareAccelerated
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:125-183
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:125-183
 	android:versionCode
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:2:46-69
-		INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:2:46-69
+		INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml
 supports-screens
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
 	android:largeScreens
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
 	android:smallScreens
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
 	android:normalScreens
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
 	android:xlargeScreens
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
 	android:resizeable
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
 	android:anyDensity
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:5:5-24:19
-MERGED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:28:5-53:19
-MERGED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:28:5-53:19
-MERGED from [com.android.support:design:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/7d7b2066f22eb2b21d7425ebbbd8f1fc/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/7d7b2066f22eb2b21d7425ebbbd8f1fc/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f2a175a92021bab1f5c25b46519d824c/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f2a175a92021bab1f5c25b46519d824c/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/73323ae951b23625d5b253a763b54b74/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/73323ae951b23625d5b253a763b54b74/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a20d5b89356ffdb0e5ad633520c96ca3/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a20d5b89356ffdb0e5ad633520c96ca3/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/e609ac1b6369639e930149e9ed64720e/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/e609ac1b6369639e930149e9ed64720e/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/060dc00fb6f5ec9fc6133977833ea520/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/060dc00fb6f5ec9fc6133977833ea520/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/c05023bc08f607013cc15debe284b8e5/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/c05023bc08f607013cc15debe284b8e5/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d76c6bbf8e700863820693a2dab2d4a5/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d76c6bbf8e700863820693a2dab2d4a5/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/32abb36ff96de51738c1b3f5f237510a/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/32abb36ff96de51738c1b3f5f237510a/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d5fca15301f8d8a97192011da3b92b9a/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d5fca15301f8d8a97192011da3b92b9a/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/e5999793fb198314a8a6a6d2c04cdbfa/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/e5999793fb198314a8a6a6d2c04cdbfa/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c9136c433fa32ba9cbf90ceb7a9fdee5/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c9136c433fa32ba9cbf90ceb7a9fdee5/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8db46da7915e44d6be3af3e2eba3bf5d/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8db46da7915e44d6be3af3e2eba3bf5d/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/26f8c2a4a08cb07baed83583e1a41464/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/26f8c2a4a08cb07baed83583e1a41464/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/c4c4e6f07a2cc2449bbccfc843367ad4/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/c4c4e6f07a2cc2449bbccfc843367ad4/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/3150fb53c92af6d44df957462029b7e3/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/3150fb53c92af6d44df957462029b7e3/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/9c7cfe45ac9266a5b483b1dcaa38fd6a/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/9c7cfe45ac9266a5b483b1dcaa38fd6a/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/bffb3ac925dedffaf5a5d3cdaebb26a0/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/bffb3ac925dedffaf5a5d3cdaebb26a0/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/6f8655f3458a4abaacef1b18963c42ee/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/6f8655f3458a4abaacef1b18963c42ee/AndroidManifest.xml:5:5-20
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:28:5-53:19
+MERGED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:28:5-53:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ca68fce7d07c4c3e29bfcb0fc06007e3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ca68fce7d07c4c3e29bfcb0fc06007e3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\02fdccaac31372013c950764b024bd51\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\02fdccaac31372013c950764b024bd51\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\c07b6e3f9e4f327c213fdf21685f60e0\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\c07b6e3f9e4f327c213fdf21685f60e0\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9fd3b6fe6fe80f4ddaf53b6a28c7cf29\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9fd3b6fe6fe80f4ddaf53b6a28c7cf29\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d9ee4f3d5b79340c050fbefcf7daad11\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d9ee4f3d5b79340c050fbefcf7daad11\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\b0b81ff9777ed7c0e21417463660327e\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\b0b81ff9777ed7c0e21417463660327e\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\b82914c4303996eb61f2b87ce84f3faa\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\b82914c4303996eb61f2b87ce84f3faa\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8d2fc07c44fc5ca5f58598fa245600a2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8d2fc07c44fc5ca5f58598fa245600a2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d63972daea92b1460224d3e810cd2121\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d63972daea92b1460224d3e810cd2121\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\1e34881791869714dc9aaf506cb3646a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\1e34881791869714dc9aaf506cb3646a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6368564940c6875cd9dbafd5dc9b21ff\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6368564940c6875cd9dbafd5dc9b21ff\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5577a2276ab45a37768f2f1c9c1b0a84\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5577a2276ab45a37768f2f1c9c1b0a84\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b0b61afa2e29295ec2bdf7e2b995c8ad\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b0b61afa2e29295ec2bdf7e2b995c8ad\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0e610ad94c4ea9e872a1e59f90b0d92e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0e610ad94c4ea9e872a1e59f90b0d92e\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\bcfd72986909b0d9d80ac2c25592c050\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\bcfd72986909b0d9d80ac2c25592c050\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\fb526e9ec7d9f44a236c45e4e2374c4d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\fb526e9ec7d9f44a236c45e4e2374c4d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\bd2ea3a1e9a2d1bccb818e7d8d9acc20\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\bd2ea3a1e9a2d1bccb818e7d8d9acc20\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\1bf4023d981eeb5148232b1cad5f9a21\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\1bf4023d981eeb5148232b1cad5f9a21\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\5b385bc9886e7735305e7fed7cc5042c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\5b385bc9886e7735305e7fed7cc5042c\AndroidManifest.xml:5:5-20
 	android:supportsRtl
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
 	android:label
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
 	android:hardwareAccelerated
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
 	android:icon
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
 activity#io.ionic.starter.MainActivity
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
 	android:label
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
 	android:launchMode
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
 	android:windowSoftInputMode
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:6:257-299
 	android:configChanges
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
 	android:theme
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:6:194-256
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
 	android:label
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
 action#android.intent.action.MAIN
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:12:9-102
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:12:9-102
 	android:value
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:12:66-99
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:12:66-99
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:12:20-65
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:12:20-65
 meta-data#com.facebook.accountkit.ApplicationName
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:13:9-113
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:13:9-113
 	android:value
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:13:75-110
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:13:75-110
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:13:20-74
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:13:20-74
 meta-data#com.facebook.accountkit.ClientToken
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:14:9-114
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:14:9-114
 	android:value
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:14:71-111
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:14:71-111
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:14:20-70
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:14:20-70
 meta-data#com.facebook.accountkit.FacebookAppEventsEnabled
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:15:9-108
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:15:9-108
 	android:value
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:15:84-105
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:15:84-105
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:15:20-83
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:15:20-83
 activity#com.facebook.accountkit.ui.AccountKitActivity
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:16:9-23:20
-MERGED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:29:9-34:58
-MERGED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:29:9-34:58
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:16:9-23:20
+MERGED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:29:9-34:58
+MERGED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:29:9-34:58
 	android:label
-		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:31:13-65
+		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:31:13-65
 	android:launchMode
-		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:32:13-43
+		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:32:13-43
 	android:windowSoftInputMode
-		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:34:13-55
+		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:34:13-55
 	android:theme
-		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:33:13-52
+		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:33:13-52
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:16:19-79
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:16:19-79
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:17:13-22:29
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:17:13-22:29
 action#android.intent.action.VIEW
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.DEFAULT
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:19:17-76
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:19:17-76
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:19:27-73
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:19:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:20:17-78
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:20:17-78
 	android:name
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:20:27-75
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:20:27-75
 data
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:21:17-60
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:21:17-60
 	android:scheme
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:21:23-57
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:21:23-57
 uses-sdk
-ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:25:5-74
-INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:25:5-74
-MERGED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:design:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/7d7b2066f22eb2b21d7425ebbbd8f1fc/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/7d7b2066f22eb2b21d7425ebbbd8f1fc/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f2a175a92021bab1f5c25b46519d824c/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f2a175a92021bab1f5c25b46519d824c/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/73323ae951b23625d5b253a763b54b74/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/73323ae951b23625d5b253a763b54b74/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a20d5b89356ffdb0e5ad633520c96ca3/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a20d5b89356ffdb0e5ad633520c96ca3/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/cef607ae02dbe57cf2261d03549da109/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/cef607ae02dbe57cf2261d03549da109/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/e609ac1b6369639e930149e9ed64720e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/e609ac1b6369639e930149e9ed64720e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/675f42b1d9e94698d64c4065ac03d003/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/675f42b1d9e94698d64c4065ac03d003/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/1eb093f1bff14f287d8cec4e4cc43de0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/1eb093f1bff14f287d8cec4e4cc43de0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/060dc00fb6f5ec9fc6133977833ea520/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/060dc00fb6f5ec9fc6133977833ea520/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/c05023bc08f607013cc15debe284b8e5/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/c05023bc08f607013cc15debe284b8e5/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d76c6bbf8e700863820693a2dab2d4a5/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d76c6bbf8e700863820693a2dab2d4a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/32abb36ff96de51738c1b3f5f237510a/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/32abb36ff96de51738c1b3f5f237510a/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d5fca15301f8d8a97192011da3b92b9a/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d5fca15301f8d8a97192011da3b92b9a/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/e5999793fb198314a8a6a6d2c04cdbfa/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/e5999793fb198314a8a6a6d2c04cdbfa/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c9136c433fa32ba9cbf90ceb7a9fdee5/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c9136c433fa32ba9cbf90ceb7a9fdee5/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8db46da7915e44d6be3af3e2eba3bf5d/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8db46da7915e44d6be3af3e2eba3bf5d/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/26f8c2a4a08cb07baed83583e1a41464/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/26f8c2a4a08cb07baed83583e1a41464/AndroidManifest.xml:21:5-23:58
-MERGED from [:CordovaLib] /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
-MERGED from [:CordovaLib] /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/c4c4e6f07a2cc2449bbccfc843367ad4/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/c4c4e6f07a2cc2449bbccfc843367ad4/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/3150fb53c92af6d44df957462029b7e3/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/3150fb53c92af6d44df957462029b7e3/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/9c7cfe45ac9266a5b483b1dcaa38fd6a/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/9c7cfe45ac9266a5b483b1dcaa38fd6a/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/bffb3ac925dedffaf5a5d3cdaebb26a0/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/bffb3ac925dedffaf5a5d3cdaebb26a0/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/6f8655f3458a4abaacef1b18963c42ee/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/6f8655f3458a4abaacef1b18963c42ee/AndroidManifest.xml:4:5-43
-INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:25:5-74
+ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:25:5-74
+INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:25:5-74
+MERGED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ca68fce7d07c4c3e29bfcb0fc06007e3\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ca68fce7d07c4c3e29bfcb0fc06007e3\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\02fdccaac31372013c950764b024bd51\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\02fdccaac31372013c950764b024bd51\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\c07b6e3f9e4f327c213fdf21685f60e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\c07b6e3f9e4f327c213fdf21685f60e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9fd3b6fe6fe80f4ddaf53b6a28c7cf29\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9fd3b6fe6fe80f4ddaf53b6a28c7cf29\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\194f677af1ae65ab6103c50e7544d463\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\194f677af1ae65ab6103c50e7544d463\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d9ee4f3d5b79340c050fbefcf7daad11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d9ee4f3d5b79340c050fbefcf7daad11\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\c30249a61697aecde1622bfa785ca20b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\c30249a61697aecde1622bfa785ca20b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\83309246d4a970400b46e7293fefc586\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\83309246d4a970400b46e7293fefc586\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\b0b81ff9777ed7c0e21417463660327e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\b0b81ff9777ed7c0e21417463660327e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\b82914c4303996eb61f2b87ce84f3faa\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\b82914c4303996eb61f2b87ce84f3faa\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8d2fc07c44fc5ca5f58598fa245600a2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8d2fc07c44fc5ca5f58598fa245600a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d63972daea92b1460224d3e810cd2121\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d63972daea92b1460224d3e810cd2121\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\1e34881791869714dc9aaf506cb3646a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\1e34881791869714dc9aaf506cb3646a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6368564940c6875cd9dbafd5dc9b21ff\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6368564940c6875cd9dbafd5dc9b21ff\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5577a2276ab45a37768f2f1c9c1b0a84\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5577a2276ab45a37768f2f1c9c1b0a84\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b0b61afa2e29295ec2bdf7e2b995c8ad\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b0b61afa2e29295ec2bdf7e2b995c8ad\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0e610ad94c4ea9e872a1e59f90b0d92e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0e610ad94c4ea9e872a1e59f90b0d92e\AndroidManifest.xml:21:5-23:58
+MERGED from [:CordovaLib] C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\bcfd72986909b0d9d80ac2c25592c050\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\bcfd72986909b0d9d80ac2c25592c050\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\fb526e9ec7d9f44a236c45e4e2374c4d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\fb526e9ec7d9f44a236c45e4e2374c4d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\bd2ea3a1e9a2d1bccb818e7d8d9acc20\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\bd2ea3a1e9a2d1bccb818e7d8d9acc20\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\1bf4023d981eeb5148232b1cad5f9a21\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\1bf4023d981eeb5148232b1cad5f9a21\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\5b385bc9886e7735305e7fed7cc5042c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\5b385bc9886e7735305e7fed7cc5042c\AndroidManifest.xml:4:5-43
+INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:25:5-74
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/7d7b2066f22eb2b21d7425ebbbd8f1fc/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ca68fce7d07c4c3e29bfcb0fc06007e3\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:25:42-71
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:25:42-71
 	android:minSdkVersion
-		ADDED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml:25:15-41
-		INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml:25:15-41
+		INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Faby Martiez\Documents\ArcontWay\App\ArcontWay\platforms\android\app\src\main\AndroidManifest.xml
 activity#com.facebook.accountkit.ui.AccountKitEmailRedirectActivity
-ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:35:9-38:40
+ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:35:9-38:40
 	android:noHistory
-		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:38:13-37
+		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:38:13-37
 	android:exported
-		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:37:13-36
+		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:36:13-86
+		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:36:13-86
 provider#com.facebook.accountkit.internal.AccountKitInitProvider
-ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:49:9-52:40
+ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:49:9-52:40
 	android:authorities
-		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:51:13-76
+		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:51:13-76
 	android:exported
-		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:52:13-37
+		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/AndroidManifest.xml:50:13-83
+		ADDED from [com.facebook.android:account-kit-sdk:4.39.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\account-kit-sdk-4.39.0.aar\e92545b743083933f9f931ee9609e405\AndroidManifest.xml:50:13-83
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/7d7b2066f22eb2b21d7425ebbbd8f1fc/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f2a175a92021bab1f5c25b46519d824c/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f2a175a92021bab1f5c25b46519d824c/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/73323ae951b23625d5b253a763b54b74/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/73323ae951b23625d5b253a763b54b74/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a20d5b89356ffdb0e5ad633520c96ca3/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/a20d5b89356ffdb0e5ad633520c96ca3/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/cef607ae02dbe57cf2261d03549da109/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/cef607ae02dbe57cf2261d03549da109/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/e609ac1b6369639e930149e9ed64720e/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/e609ac1b6369639e930149e9ed64720e/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/32abb36ff96de51738c1b3f5f237510a/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/32abb36ff96de51738c1b3f5f237510a/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d5fca15301f8d8a97192011da3b92b9a/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d5fca15301f8d8a97192011da3b92b9a/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/e5999793fb198314a8a6a6d2c04cdbfa/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/e5999793fb198314a8a6a6d2c04cdbfa/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c9136c433fa32ba9cbf90ceb7a9fdee5/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c9136c433fa32ba9cbf90ceb7a9fdee5/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8db46da7915e44d6be3af3e2eba3bf5d/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8db46da7915e44d6be3af3e2eba3bf5d/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/26f8c2a4a08cb07baed83583e1a41464/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/26f8c2a4a08cb07baed83583e1a41464/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ca68fce7d07c4c3e29bfcb0fc06007e3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\02fdccaac31372013c950764b024bd51\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\02fdccaac31372013c950764b024bd51\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\c07b6e3f9e4f327c213fdf21685f60e0\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\c07b6e3f9e4f327c213fdf21685f60e0\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9fd3b6fe6fe80f4ddaf53b6a28c7cf29\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9fd3b6fe6fe80f4ddaf53b6a28c7cf29\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\194f677af1ae65ab6103c50e7544d463\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\194f677af1ae65ab6103c50e7544d463\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d9ee4f3d5b79340c050fbefcf7daad11\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d9ee4f3d5b79340c050fbefcf7daad11\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d63972daea92b1460224d3e810cd2121\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d63972daea92b1460224d3e810cd2121\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\1e34881791869714dc9aaf506cb3646a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\1e34881791869714dc9aaf506cb3646a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6368564940c6875cd9dbafd5dc9b21ff\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\6368564940c6875cd9dbafd5dc9b21ff\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5577a2276ab45a37768f2f1c9c1b0a84\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\5577a2276ab45a37768f2f1c9c1b0a84\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b0b61afa2e29295ec2bdf7e2b995c8ad\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b0b61afa2e29295ec2bdf7e2b995c8ad\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0e610ad94c4ea9e872a1e59f90b0d92e\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\0e610ad94c4ea9e872a1e59f90b0d92e\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/7d7b2066f22eb2b21d7425ebbbd8f1fc/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ca68fce7d07c4c3e29bfcb0fc06007e3\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/7d7b2066f22eb2b21d7425ebbbd8f1fc/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\ca68fce7d07c4c3e29bfcb0fc06007e3\AndroidManifest.xml:26:9-47
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:33:9-36:110
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:33:9-36:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:35:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/37a9892d53f678f7e9046b439e79e93d/AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\7c628775aa5b53bbf0caf6ae18988f55\AndroidManifest.xml:34:13-89
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/060dc00fb6f5ec9fc6133977833ea520/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\b0b81ff9777ed7c0e21417463660327e\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/060dc00fb6f5ec9fc6133977833ea520/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\b0b81ff9777ed7c0e21417463660327e\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/060dc00fb6f5ec9fc6133977833ea520/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\b0b81ff9777ed7c0e21417463660327e\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/060dc00fb6f5ec9fc6133977833ea520/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\b0b81ff9777ed7c0e21417463660327e\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d76c6bbf8e700863820693a2dab2d4a5/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8d2fc07c44fc5ca5f58598fa245600a2\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d76c6bbf8e700863820693a2dab2d4a5/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8d2fc07c44fc5ca5f58598fa245600a2\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/d76c6bbf8e700863820693a2dab2d4a5/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faby Martiez\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8d2fc07c44fc5ca5f58598fa245600a2\AndroidManifest.xml:24:13-58

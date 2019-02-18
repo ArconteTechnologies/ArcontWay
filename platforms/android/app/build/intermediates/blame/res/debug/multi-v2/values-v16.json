@@ -1,10 +1,44 @@
 {
     "logs": [
         {
-            "outputFile": "/home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "C:\\home\\estebanmendiola\\Documents\\Personal\\ArcontWay\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "/home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f2a175a92021bab1f5c25b46519d824c/res/values-v16/values-v16.xml",
+                    "source": "C:\\home\\estebanmendiola\\.gradle\\caches\\transforms-1\\files-1.1\\account-kit-sdk-4.39.0.aar\\b49189204089d0d0b841541344cfb5a3\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2,5,8,11,14",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,215,358,510,652",
+                        "endLines": "4,7,10,13,16",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "210,353,505,647,795"
+                    },
+                    "to": {
+                        "startLines": "3,6,9,12,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "121,281,424,576,718",
+                        "endLines": "5,8,11,14,17",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "276,419,571,713,861"
+                    }
+                },
+                {
+                    "source": "C:\\home\\estebanmendiola\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2a175a92021bab1f5c25b46519d824c\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Faby Martiez\\Documents\\ArcontWay\\App\\ArcontWay\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Faby Martiez\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\02fdccaac31372013c950764b024bd51\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +48,7 @@
                     }
                 },
                 {
-                    "source": "/home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\Faby Martiez\\.gradle\\caches\\transforms-1\\files-1.1\\account-kit-sdk-4.39.0.aar\\e92545b743083933f9f931ee9609e405\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2,5,8,11,14",
                         "startColumns": "4,4,4,4,4",

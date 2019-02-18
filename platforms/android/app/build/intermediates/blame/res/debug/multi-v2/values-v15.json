@@ -1,10 +1,26 @@
 {
     "logs": [
         {
-            "outputFile": "/home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v15/values-v15.xml",
+            "outputFile": "C:\\home\\estebanmendiola\\Documents\\Personal\\ArcontWay\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v15\\values-v15.xml",
             "map": [
                 {
-                    "source": "/home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/account-kit-sdk-4.39.0.aar/b49189204089d0d0b841541344cfb5a3/res/values-v15/values-v15.xml",
+                    "source": "C:\\home\\estebanmendiola\\.gradle\\caches\\transforms-1\\files-1.1\\account-kit-sdk-4.39.0.aar\\b49189204089d0d0b841541344cfb5a3\\res\\values-v15\\values-v15.xml",
+                    "from": {
+                        "startLines": "2,5,8,11,14",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,201,333,471,599",
+                        "endLines": "4,7,10,13,16",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "196,328,466,594,732"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Faby Martiez\\Documents\\ArcontWay\\App\\ArcontWay\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v15\\values-v15.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Faby Martiez\\.gradle\\caches\\transforms-1\\files-1.1\\account-kit-sdk-4.39.0.aar\\e92545b743083933f9f931ee9609e405\\res\\values-v15\\values-v15.xml",
                     "from": {
                         "startLines": "2,5,8,11,14",
                         "startColumns": "4,4,4,4,4",

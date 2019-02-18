@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\Users\\Faby Martiez\\Documents\\ArcontWay\\App\\ArcontWay\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f2a175a92021bab1f5c25b46519d824c/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Faby Martiez\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\02fdccaac31372013c950764b024bd51\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,41 @@
                     }
                 },
                 {
-                    "source": "/home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/7d7b2066f22eb2b21d7425ebbbd8f1fc/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Faby Martiez\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\ca68fce7d07c4c3e29bfcb0fc06007e3\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\home\\estebanmendiola\\Documents\\Personal\\ArcontWay\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\home\\estebanmendiola\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2a175a92021bab1f5c25b46519d824c\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "C:\\home\\estebanmendiola\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\7d7b2066f22eb2b21d7425ebbbd8f1fc\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

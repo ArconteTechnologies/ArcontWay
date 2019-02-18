@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/home/estebanmendiola/Documents/Personal/ArcontWay/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
+            "outputFile": "C:\\home\\estebanmendiola\\Documents\\Personal\\ArcontWay\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
             "map": [
                 {
-                    "source": "/home/estebanmendiola/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f2a175a92021bab1f5c25b46519d824c/res/values-v13/values-v13.xml",
+                    "source": "C:\\home\\estebanmendiola\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2a175a92021bab1f5c25b46519d824c\\res\\values-v13\\values-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Faby Martiez\\Documents\\ArcontWay\\App\\ArcontWay\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Faby Martiez\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\02fdccaac31372013c950764b024bd51\\res\\values-v13\\values-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

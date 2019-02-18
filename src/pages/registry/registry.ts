@@ -60,7 +60,7 @@ export class RegistryPage {
    
   }
 
-  //Metodo para registrar nuevo viajero
+  /*Metodo para registrar nuevo viajero
   sendRegister(traveler){
     
     //Crear componente  Loading
@@ -95,6 +95,6 @@ export class RegistryPage {
 
   launchHomePage(){
     this.navCtrl.push(LoginPage);
-  }
+  }*/
   
 }
